@@ -1,0 +1,11 @@
+[package]
+name = "owning-ref-noalias"
+version = "0.0.0"
+
+[dependencies]
+
+# UB version
+owning_ref = "0.4.0"
+
+# Fixed version
+# owning_ref = "0.5.0"
