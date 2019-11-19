@@ -1,8 +1,10 @@
-# owning-ref - noalias conflict
+# owning_ref - noalias conflict
 
-This repo is a minimal repoduction of the UB when compiling owning_ref `v0.4.0`.
+This repo is a minimal reproduction of the UB when compiling [owning_ref](https://github.com/Kimundi/owning-ref-rs) `v0.4.0`.
 
 ## Failing behaviour
+
+Original failing case can be found [here](https://github.com/Kimundi/owning-ref-rs/issues/49#issue-480580788).
 
 ### Source (extracted from [src/main.rs](./src/main.rs))
 
